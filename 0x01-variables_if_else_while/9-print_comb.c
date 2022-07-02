@@ -7,17 +7,17 @@ include <stdio.h>
   */
 int main(void)
 {
-	int number;
+	int n;
 
 
 
-	for (number = 0; number <= 9; number++)
+	for (n = 48; n < 58; n++)
 
 	{
 
-		putchar(number + '0');
+		putchar(n);
 
-		if (number < 9)
+		if (n != 57)
 
 		{
 
@@ -30,8 +30,6 @@ int main(void)
 	}
 
 	putchar('\n');
-
-
 
 	return (0);
 }
