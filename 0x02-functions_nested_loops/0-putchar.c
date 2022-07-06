@@ -1,25 +1,15 @@
-#include "main.h"
-
-
-
+include "main.h"
 /**
  *
- * * main - prints Holberton, followed by a new line
+ * main - Prints Holberton as a message.
  *
- * * Return: Always 0 (Success)
  *
- * */
-
-int main(void)
-
+ *
+ * Return: Always 0 (Success)
+ *
+ */
+int main()
 {
-
-	_putchar('H');
-
-
-
-
-	return (0);
-
+	printf("_putchar\n")
+	return 0;
 }
-
