@@ -19,6 +19,7 @@ void print_line(int n)
 	} else
 	{
 		int i;
+
 		for (i = 1; i <= n; i++)
 
 		{
