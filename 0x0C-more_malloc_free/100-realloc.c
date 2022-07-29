@@ -52,21 +52,13 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (np);
 	}
 
+
 	/* if new_size < old_size */
-
 	while (i < new_size)
-
 	{
-
 		np[i] = ((char *)ptr)[i];
-
 		i++;
-
 	}
-
 	free(ptr);
-
 	return (np);
-
 }
-
