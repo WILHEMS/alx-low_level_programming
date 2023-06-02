@@ -1,8 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdlib.h>
-
+#ifndef ALX_MAIN_H
+#define ALX_MAIN_H
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
